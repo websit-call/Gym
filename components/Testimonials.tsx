@@ -9,16 +9,16 @@ const testimonials = [
     name: 'Karan Mathur',
     role: 'Lost 18kg in 6 months',
     text: "Joining Iron Pulse was the best decision of my life. The trainers don't just guide you, they push you beyond what you thought was possible. The community keeps you going on days you want to quit.",
-    imageBefore: 'https://picsum.photos/seed/before1/300/400',
-    imageAfter: 'https://picsum.photos/seed/after1/300/400',
+    imageBefore: 'https://images.unsplash.com/photo-1549476464-37392f717541?q=80&w=400&auto=format&fit=crop',
+    imageAfter: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=400&auto=format&fit=crop',
     rating: 5,
   },
   {
     name: 'Sneha Banerjee',
     role: 'Gained 5kg muscle mass',
     text: "As a woman, I was intimidated by the weight section. The coaches here built my confidence and a program that completely transformed my physique. Pure luxury and pure results.",
-    imageBefore: 'https://picsum.photos/seed/before2/300/400',
-    imageAfter: 'https://picsum.photos/seed/after2/300/400',
+    imageBefore: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=400&auto=format&fit=crop',
+    imageAfter: 'https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=400&auto=format&fit=crop',
     rating: 5,
   }
 ];

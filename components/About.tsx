@@ -43,7 +43,7 @@ export default function About() {
             >
               <div className="relative h-64 rounded-2xl overflow-hidden mt-8">
                 <Image
-                  src="https://picsum.photos/seed/kettlebell/600/800"
+                  src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=800&auto=format&fit=crop"
                   alt="Kettlebell workout"
                   fill
                   className="object-cover"
@@ -52,7 +52,7 @@ export default function About() {
               </div>
               <div className="relative h-48 rounded-2xl overflow-hidden">
                 <Image
-                  src="https://picsum.photos/seed/rope/600/600"
+                  src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop"
                   alt="Battle ropes"
                   fill
                   className="object-cover"
@@ -68,7 +68,7 @@ export default function About() {
               className="relative h-[28rem] rounded-2xl overflow-hidden"
             >
               <Image
-                src="https://picsum.photos/seed/deadlift/600/1000"
+                src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800&auto=format&fit=crop"
                 alt="Deadlift training"
                 fill
                 className="object-cover"

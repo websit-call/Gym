@@ -10,7 +10,7 @@ export default function Hero() {
       {/* Background Image & Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://picsum.photos/seed/gymworkout/1920/1080"
+          src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1920&auto=format&fit=crop"
           alt="Iron Pulse Fitness Gym Background"
           fill
           className="object-cover opacity-60"

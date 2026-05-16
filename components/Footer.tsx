@@ -5,8 +5,11 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#050505] pt-16 sm:pt-20 pb-8 sm:pb-10 border-t border-white/10">
-      <div className="container mx-auto px-4 sm:px-6 w-full">
+    <footer className="bg-[#050505] pt-16 sm:pt-20 pb-8 sm:pb-10 border-t border-white/10 relative overflow-hidden">
+      {/* Subtle texture background */}
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1920&auto=format&fit=crop')] bg-cover bg-center opacity-[0.03] pointer-events-none mix-blend-luminosity"></div>
+      
+      <div className="container relative mx-auto px-4 sm:px-6 w-full z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           
           {/* Brand */}

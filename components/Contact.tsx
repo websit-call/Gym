@@ -129,7 +129,7 @@ export default function Contact() {
               className="w-full h-48 bg-[#101010] rounded-2xl overflow-hidden border border-white/10 flex items-center justify-center relative grayscale hover:grayscale-0 transition-all duration-500"
             >
               {/* Google Maps Placeholder - Use iframe in real app */}
-              <div className="absolute inset-0 bg-[url('https://picsum.photos/seed/map/800/400')] opacity-50 bg-cover bg-center"></div>
+              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=800&auto=format&fit=crop')] opacity-50 bg-cover bg-center"></div>
               <div className="relative z-10 flex flex-col items-center">
                 <MapPin className="w-10 h-10 text-brand-red mb-2 drop-shadow-md" />
                 <span className="font-bold text-white uppercase tracking-wider drop-shadow-md">View on Google Maps</span>

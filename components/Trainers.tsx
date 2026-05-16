@@ -8,19 +8,19 @@ const trainers = [
   {
     name: 'Vikram Singh',
     role: 'Head Strength Coach',
-    image: 'https://picsum.photos/seed/trainer1/600/800',
+    image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop',
     exp: '12+ Years Exp.',
   },
   {
     name: 'Anjali Desai',
     role: 'Yoga & Mobility Expert',
-    image: 'https://picsum.photos/seed/trainer2/600/800',
+    image: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=800&auto=format&fit=crop',
     exp: '8+ Years Exp.',
   },
   {
     name: 'Rahul Sharma',
     role: 'CrossFit Specialist',
-    image: 'https://picsum.photos/seed/trainer3/600/800',
+    image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800&auto=format&fit=crop',
     exp: '10+ Years Exp.',
   }
 ];

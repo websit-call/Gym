@@ -4,12 +4,12 @@ import { motion } from 'motion/react';
 import Image from 'next/image';
 
 const images = [
-  { src: 'https://picsum.photos/seed/gym1/800/600', span: 'col-span-1 md:col-span-2 row-span-2' },
-  { src: 'https://picsum.photos/seed/gym2/400/400', span: 'col-span-1 row-span-1' },
-  { src: 'https://picsum.photos/seed/gym3/400/400', span: 'col-span-1 row-span-1' },
-  { src: 'https://picsum.photos/seed/gym4/400/800', span: 'col-span-1 row-span-2' },
-  { src: 'https://picsum.photos/seed/gym5/800/400', span: 'col-span-1 md:col-span-2 row-span-1' },
-  { src: 'https://picsum.photos/seed/gym6/400/400', span: 'col-span-1 row-span-1' },
+  { src: 'https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=800&auto=format&fit=crop', span: 'col-span-1 md:col-span-2 row-span-2' },
+  { src: 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=600&auto=format&fit=crop', span: 'col-span-1 row-span-1' },
+  { src: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=600&auto=format&fit=crop', span: 'col-span-1 row-span-1' },
+  { src: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=600&auto=format&fit=crop', span: 'col-span-1 row-span-2' },
+  { src: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=800&auto=format&fit=crop', span: 'col-span-1 md:col-span-2 row-span-1' },
+  { src: 'https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=600&auto=format&fit=crop', span: 'col-span-1 row-span-1' },
 ];
 
 export default function Gallery() {
