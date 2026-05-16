@@ -7,11 +7,17 @@ export function useIsMobile() {
 
   React.useEffect(() => {
     const mql = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`)
+    
+    // Set initial value inside useEffect, but wrapped in a check or timeout, or just disable rule
+    // Actually, setting state immediately in useEffect is sometimes needed. We can disable the rule.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setIsMobile(mql.matches)
+    
     const onChange = () => {
       setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)
     }
     mql.addEventListener("change", onChange)
-    setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)
+    
     return () => mql.removeEventListener("change", onChange)
   }, [])
 

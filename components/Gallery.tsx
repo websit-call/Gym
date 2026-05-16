@@ -50,6 +50,7 @@ export default function Gallery() {
                 src={img.src}
                 alt={`Gym Facility Gallery ${idx + 1}`}
                 fill
+                sizes="(max-width: 768px) 50vw, 25vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-110 opacity-80 group-hover:opacity-100"
                 referrerPolicy="no-referrer"
               />

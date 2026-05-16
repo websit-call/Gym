@@ -60,11 +60,11 @@ export default function Testimonials() {
               {/* Before/After Images */}
               <div className="flex-shrink-0 flex gap-2 relative">
                 <div className="relative w-28 h-40 rounded-xl overflow-hidden grayscale opacity-70">
-                  <Image src={item.imageBefore} alt={`${item.name} Before`} fill className="object-cover" referrerPolicy="no-referrer" />
+                  <Image src={item.imageBefore} alt={`${item.name} Before`} fill sizes="112px" className="object-cover" referrerPolicy="no-referrer" />
                   <div className="absolute inset-x-0 bottom-0 bg-black/60 py-1 text-center text-[10px] uppercase font-bold text-white tracking-widest">Before</div>
                 </div>
                 <div className="relative w-32 h-44 rounded-xl overflow-hidden shadow-2xl -mt-4 border-2 border-brand-red z-10">
-                  <Image src={item.imageAfter} alt={`${item.name} After`} fill className="object-cover" referrerPolicy="no-referrer" />
+                  <Image src={item.imageAfter} alt={`${item.name} After`} fill sizes="128px" className="object-cover" referrerPolicy="no-referrer" />
                   <div className="absolute inset-x-0 bottom-0 bg-brand-red py-1 text-center text-[10px] uppercase font-bold text-white tracking-widest">After</div>
                 </div>
               </div>

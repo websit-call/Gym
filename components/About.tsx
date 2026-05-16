@@ -46,6 +46,7 @@ export default function About() {
                   src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=800&auto=format&fit=crop"
                   alt="Kettlebell workout"
                   fill
+                  sizes="(max-width: 1024px) 50vw, 25vw"
                   className="object-cover"
                   referrerPolicy="no-referrer"
                 />
@@ -55,6 +56,7 @@ export default function About() {
                   src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop"
                   alt="Battle ropes"
                   fill
+                  sizes="(max-width: 1024px) 50vw, 25vw"
                   className="object-cover"
                   referrerPolicy="no-referrer"
                 />
@@ -71,6 +73,7 @@ export default function About() {
                 src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800&auto=format&fit=crop"
                 alt="Deadlift training"
                 fill
+                sizes="(max-width: 1024px) 50vw, 25vw"
                 className="object-cover"
                 referrerPolicy="no-referrer"
               />
